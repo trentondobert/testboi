@@ -1,0 +1,55 @@
+.Service{
+	color:white;
+	background-color: #0C3E4A;
+	display: flex;
+    flex-direction: row;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.Service-alternate {
+    flex-direction: row-reverse;
+}
+
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+	width: 80%;
+	height: 80%;
+}
+
+.modern-button {
+    background-color: #638E98; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+	margin: 100px 20px 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modern-button:hover {
+    background-color: #3C717D; /* Darker Green */
+}
+
+p{
+    font-size: 20px; /* Set your desired font size */
+}

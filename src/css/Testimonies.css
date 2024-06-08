@@ -1,0 +1,27 @@
+.testimonies-container {
+	padding: 20px;
+	text-align: center;
+	color: white;
+  }
+  
+  .testimonies {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+	gap: 0px; /* Remove the gap between the grid items */
+	justify-items: center; /* Center the content horizontally within each grid cell */
+  }
+  
+  .testimony {
+	box-sizing: border-box; /* Include padding and border in element's total width and height */
+	text-align: center; /* Center the content inside each testimony div */
+  }
+  
+  .testimony img {
+	width: 100%; /* Ensure the images take up the full width of the grid cell */
+	height: auto; /* Maintain the aspect ratio of the images */
+  }
+  
+  .testimony p {
+	font-size: 2em; /* Set a larger font size for the paragraph names */
+	margin: 10px 0 0 0; /* Add some margin above and remove default margin below */
+  }
