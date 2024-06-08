@@ -57,7 +57,7 @@ function Contact() {
         <p>Phone: 321-432-1348</p>
         <p>Email: anderson.bros@hotmail.com</p>
         <p>Address: 4165 Dow rd Unit 21 Melbourne FL 32904</p>
-        <img src={locationImage} alt="Seamless Gutters Image"></img>
+        <img src={locationImage} alt="Seamless Gutters"></img>
       </div>
     </div>
   );

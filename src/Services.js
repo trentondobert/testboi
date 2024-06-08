@@ -1,6 +1,5 @@
 import React from 'react';
 import "./css/Services.css"
-import logoImage from './Images/seamlessLogo.jpg';
 import underImage from './Images/Work/undergutter.jpg';
 import dirtyImage from './Images/Work/dirtygutter.jpg';
 import windowImage from './Images/Work/window.jpg';
@@ -24,7 +23,7 @@ function Services() {
 				<button class="modern-button" type="submit" >Request Service</button>
 			</div>
 			<div class="image">
-				<img src={underImage} alt="Gutter Installation Image"></img>
+				<img src={underImage} alt="Gutter Installation"></img>
 			</div>		
 		</div>
 		<div class="Service Service-alternate">
@@ -42,7 +41,7 @@ function Services() {
 				<button class="modern-button" type="submit" >Request Service</button>
 			</div>
 			<div class="image">
-				<img src={dirtyImage} alt="Gutter Cleaning Image"></img>
+				<img src={dirtyImage} alt="Gutter Cleaning"></img>
 			</div>
 		</div>
 		<div class="Service">
@@ -65,7 +64,7 @@ function Services() {
 				<button class="modern-button" type="submit" >Request Service</button>
 			</div>
 			<div class="image">
-				<img src={windowImage} alt="Gutter Cleaning Image"></img>
+				<img src={windowImage} alt="Gutter Cleaning"></img>
 			</div>
 		</div>
 
